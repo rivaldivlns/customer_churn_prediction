@@ -1,0 +1,10 @@
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+feature-engine
+statsmodels
+phik
+imbalanced-learn
+streamlit
