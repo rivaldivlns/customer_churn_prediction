@@ -1,7 +1,4 @@
-
-# Customer Churn Prediction
-
-**Author**: Rivaldi Valensia
+# Machine Learning Prediction Using Python and PostgreSQL
 
 The following document presents a comprehensive analysis of our customer churn data. By leveraging advanced data analytics techniques, we aim to gain deeper insights into customer behavior, ultimately allowing us to refine our retention strategies and enhance customer satisfaction.
 
