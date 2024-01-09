@@ -1,83 +1,30 @@
-# Customer Churn Prediction using Advances Machine Learning Techniques
+# Customer Churn Prediction
 
-The following document presents a comprehensive analysis of our customer churn data. By leveraging advanced data analytics techniques, we aim to gain deeper insights into customer behavior, ultimately allowing us to refine our retention strategies and enhance customer satisfaction.
+Welcome to the Customer Churn Prediction project! This project aims to predict the likelihood of customer churn using machine learning models. Understanding and predicting customer churn is crucial for businesses to maintain sustainability and growth. The project is organized with the following folder structure:
 
-## Table of Contents:
-1. [i. Introduction](#i-Introduction)
-2. [ii. Import Libraries](#ii-import-libraries)
-3. [iii. Data Loading](#iii-data-loading)
-4. [iv. Exploratory Data Analysis (EDA)](#iv-exploratory-data-analysis-eda)
-5. [v. Feature Engineering](#v-feature-engineering)
-6. [vi. Data Preprocessing](#vi-data-preprocessing)
-7. [vii. Model Training](#vii-model-training)
-8. [viii. Model Evaluation](#viii-model-evaluation)
-9. [ix. Final Pipeline](#ix-final-pipeline)
-10. [x. Model Saving](#x-model-saving)
+## Background
 
----
+In the dynamic business landscape, retaining customers is paramount for sustained success. Customer churn, the phenomenon where customers discontinue using a product or service, poses a significant challenge for many companies. Addressing this challenge, the Customer Churn Prediction project is designed to assist businesses in identifying potential churners. Leveraging machine learning techniques, the project aims to create a predictive model capable of estimating the likelihood of churn for each customer based on historical data.
 
-### i. Introduction
+Through exploratory data analysis (EDA) and well-documented model development in the Jupyter notebook (`customer_churn.ipynb`), the project provides insights into the factors that may contribute to customer decisions to discontinue subscriptions or services.
 
-In this initial section, we introduce the scope and objectives of our analysis. Customer retention is not just about keeping clients but understanding their needs and expectations. By analyzing the patterns and tendencies, we hope to implement effective strategies to enhance our customer relationships.
+Additionally, the deployment folder (`deployment`) contains files essential for the application's deployment, including `app.py` for interactive churn prediction, `eda.py` for exploratory data analysis, `model.pkl` for the pre-trained machine learning model, `prediction.py` for prediction functionality, and `requirements.txt` listing necessary dependencies.
 
----
+## How to Use
 
-### ii. Import Libraries
+1. **Exploratory Data Analysis (EDA):** If you want to gain a deeper understanding of the dataset, run `eda.py`. This script provides valuable exploratory data analysis.
 
-Here, we lay the foundation by importing essential libraries that power our analysis. These tools enable us to process, analyze, and visualize the data effectively.
+2. **Model Development:** To view the step-by-step model development process, open and run the Jupyter notebook `customer_churn.ipynb`.
 
----
+3. **Application Deployment:** To use the web application for churn prediction, run `app.py`. Ensure all dependencies are installed by running `pip install -r deployment/requirements.txt`.
 
-### iii. Data Loading
+## Contribution
 
-A glimpse into our raw data, understanding its structure, and the kind of information it holds. This step is crucial as it sets the stage for subsequent analyses.
+Contributions to this project are welcome! Feel free to create a new branch, make changes, and submit a pull request.
 
----
 
-### iv. Exploratory Data Analysis (EDA)
+## Contact
 
-Diving deeper into the data, we visualize and understand the trends, patterns, and anomalies. This exploratory phase helps us identify key areas of focus and potential opportunities for intervention.
+If you have any questions or issues, please contact me at rivaldivalensia5@gmailcom.
 
----
-
-### v. Feature Engineering
-
-In this phase, we enhance our dataset by crafting new features or optimizing existing ones. This process aids in improving the accuracy and efficiency of our predictive models.
-
----
-
-### vi. Data Preprocessing
-
-Ensuring data quality is paramount. Here, we clean, transform, and preprocess the data to make it suitable for modeling. This step ensures that our models receive the best possible input.
-
----
-
-### vii. Model Training
-
-With clean and optimized data in hand, we proceed to train our predictive models. These models will serve as our primary tools in forecasting and understanding customer churn.
-
----
-
-### viii. Model Evaluation
-
-After training, we rigorously evaluate our models' performance. By doing so, we ensure that our strategies are backed by reliable and accurate predictions.
-
----
-
-### ix. Final Pipeline
-
-Combining all steps into a cohesive pipeline, this section ensures that our processes are streamlined and replicable, enabling consistent and efficient analyses in the future.
-
----
-
-### x. Model Saving
-
-The culmination of our efforts is the creation of robust models. In this section, we save these models, ensuring they can be readily deployed and utilized in future strategies and decision-making processes.
-
----
-
-We genuinely hope this analysis provides valuable insights that can be leveraged for the betterment of our organization. We look forward to your feedback and further collaboration.
-
-Best regards,
-
-Rivaldi Valensia
+# Thank you
