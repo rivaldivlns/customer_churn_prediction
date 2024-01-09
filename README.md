@@ -12,17 +12,18 @@ Additionally, the deployment folder (`deployment`) contains files essential for 
 
 ## Folder Structure
 
-1. **deployment:** This folder contains files related to the application deployment.
+1. **Deployment:** This folder contains files related to the application deployment.
     - `app.py`: This file is part of the web application for churn prediction.
     - `eda.py`: This file contains exploratory data analysis for initial dataset understanding.
     - `model.pkl`: This file holds the pre-trained machine learning model ready for use.
     - `prediction.py`: This file is responsible for making churn predictions using the deployed model.
     - `requirements.txt`: This file includes a list of required dependencies. Use `pip install -r requirements.txt` to install them.
 
-2. **notebooks:** This folder contains Jupyter notebooks for development and analysis.
-    - `customer_churn.ipynb`: This notebook serves as a development workspace with steps for model development and data analysis.
-    
-3. `data.csv`: This file contains the customer dataset used for training and testing the model.
+2. **Notebooks:** This folder contains Jupyter notebooks dedicated to development and analysis.
+    - `customer_churn.ipynb`: This notebook functions as a development workspace, providing steps for both model development and data analysis.
+
+3. **Data:** This section contains the raw data used in the project.
+    - `data.csv`: This file comprises the customer dataset utilized for training and testing the predictive model.
 
 ## How to Use
 
