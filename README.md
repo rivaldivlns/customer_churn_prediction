@@ -25,6 +25,4 @@ Contributions to this project are welcome! Feel free to create a new branch, mak
 
 ## Contact
 
-If you have any questions or issues, please contact me at rivaldivalensia5@gmailcom.
-
-# Thank you
+If you have any questions or issues, please contact me at [rivaldivalensia5@gmailcom]
