@@ -10,6 +10,20 @@ Through exploratory data analysis (EDA) and well-documented model development in
 
 Additionally, the deployment folder (`deployment`) contains files essential for the application's deployment, including `app.py` for interactive churn prediction, `eda.py` for exploratory data analysis, `model.pkl` for the pre-trained machine learning model, `prediction.py` for prediction functionality, and `requirements.txt` listing necessary dependencies.
 
+## Folder Structure
+
+1. **deployment:** This folder contains files related to the application deployment.
+    - `app.py`: This file is part of the web application for churn prediction.
+    - `eda.py`: This file contains exploratory data analysis for initial dataset understanding.
+    - `model.pkl`: This file holds the pre-trained machine learning model ready for use.
+    - `prediction.py`: This file is responsible for making churn predictions using the deployed model.
+    - `requirements.txt`: This file includes a list of required dependencies. Use `pip install -r requirements.txt` to install them.
+
+2. **notebooks:** This folder contains Jupyter notebooks for development and analysis.
+    - `customer_churn.ipynb`: This notebook serves as a development workspace with steps for model development and data analysis.
+    
+3. `data.csv`: This file contains the customer dataset used for training and testing the model.
+
 ## How to Use
 
 1. **Exploratory Data Analysis (EDA):** If you want to gain a deeper understanding of the dataset, run `eda.py`. This script provides valuable exploratory data analysis.
@@ -22,7 +36,6 @@ Additionally, the deployment folder (`deployment`) contains files essential for 
 
 Contributions to this project are welcome! Feel free to create a new branch, make changes, and submit a pull request.
 
-
 ## Contact
 
-If you have any questions or issues, please contact me at [rivaldivalensia5@gmailcom]
+If you have any questions or issues, please contact me at [rivaldivalensia5@gmail.com].
